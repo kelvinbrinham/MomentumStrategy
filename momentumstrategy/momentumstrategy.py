@@ -1,10 +1,11 @@
 """Momentum Strategy"""
 
-import pandas as pd
-from typing import Dict, Optional
-import matplotlib.pyplot as plt  # noqa: F401
+from typing import Dict
 
-from strategybacktest import Strategy, Portfolio, Backtest, BacktestAnalysis
+import matplotlib.pyplot as plt  # noqa: F401
+import pandas as pd
+from strategybacktest import Backtest, BacktestAnalysis, Portfolio, Strategy
+
 
 class MomentumStrategy(Strategy):
     """
@@ -63,7 +64,7 @@ class MomentumStrategy(Strategy):
             self._initial = False
 
         return self._current_weights
-    
+
 
 def run_backtest(
     initial_capital: float,
