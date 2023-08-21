@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Kelvin Brinham"
+name = "MomentumStrategy"
 version = "0.1.0"
 description = "<DESCRIPTION>"
 authors = [
@@ -9,7 +9,7 @@ readme = "README.md"
 
 [[tool.poetry.source]]
 name = "kelvinbrinham"
-url = "git@github.com:kelvinbrinham/MomentumStrategy.git"
+url = "https://github.com/kelvinbrinham/MomentumStrategy.git"
 default = false
 secondary = true
 
